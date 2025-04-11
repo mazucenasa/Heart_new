@@ -14,7 +14,7 @@ from sklearn.metrics import classification_report
 # --- CARGA DE DATOS ---
 @st.cache_data
 def load_data():
-    url = "https://github.com/mazucenasa/Heart_new/blob/main/heart.csv"
+    url = "heart.csv"
     df = pd.read_csv(url)
     return df
 
